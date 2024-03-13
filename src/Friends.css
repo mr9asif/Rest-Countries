@@ -1,0 +1,27 @@
+.box{
+    border:2px solid black;
+    border-radius: 14px;
+    padding: 20px;
+    margin: 5px;
+    color:orange;
+    background-color: aquamarine;
+   
+  }
+  .box2{
+    margin: 20px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    border:2px solid;
+  }
+  .box3{
+    width: 90%;
+    height: 100%;
+    margin: 50px;
+  }
+  .div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
